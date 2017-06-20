@@ -40,6 +40,7 @@ Please note a passing build status indicates all listed APIs are available since
 * [Shopping](#shopping)
 * [Social](#social)
 * [Sports & Fitness](#sports--fitness)
+* [Tracking](#tracking)
 * [Transportation](#transportation)
 * [University](#university)
 * [Vehicle](#vehicle)
@@ -59,7 +60,7 @@ Please note a passing build status indicates all listed APIs are available since
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | AniList | AniList Anime | `OAuth` | No | [Go!](http://anilist-api.readthedocs.io/en/latest/) |
-| Kitsu | Kitsu Anime | `OAuth` | No | [Go!](http://docs.kitsu17.apiary.io/) |
+| Kitsu | Anime discovery platform | `OAuth` | Yes | [Go!](http://docs.kitsu.apiary.io/) |
 | Studio Ghibli | Resources from Studio Ghibli films | No | Yes | [Go!](https://ghibliapi.herokuapp.com) |
 
 ### Anti-Malware
@@ -79,7 +80,7 @@ Please note a passing build status indicates all listed APIs are available since
 | Dribbble | Design | `OAuth` | No | [Go!](http://developer.dribbble.com/v1/) |
 | Noun Project | Icons | `OAuth` | No | [Go!](http://api.thenounproject.com/index.html) |
 | Icons8 | Icons | `OAuth` | Yes | [Go!](http://docs.icons8.apiary.io/#reference/0/meta) |
-| Rijksmuseum| Art | No | Yes | [Go!](https://www.rijksmuseum.nl/en/api) |
+| Rijksmuseum| Art | `apiKey` | Yes | [Go!](https://www.rijksmuseum.nl/en/api) |
 
 ### Books
 
@@ -101,7 +102,7 @@ Please note a passing build status indicates all listed APIs are available since
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Church Calendar | Catholic liturgical calendar | No | No | [Go!](http://calapi.inadiutorium.cz/) |
-| Holidays | Free API for obtaining information about holidays. | `apiKey` | Yes | [Go!](https://holidayapi.com/) |
+| Holidays | Historical data regarding holidays | `apiKey` | Yes | [Go!](https://holidayapi.com/) |
 | LectServe | Protestant liturgical calendar | No | No | [Go!](http://www.lectserve.com) |
 | Non-Working Days | Database of ICS files for non working days | No | Yes | [Go!](https://github.com/gadael/icsdb) |
 
@@ -169,11 +170,13 @@ Please note a passing build status indicates all listed APIs are available since
 | Faceplusplus | A tool to detect face | `OAuth` | Yes | [Go!](https://www.faceplusplus.com/) |
 | Genderize.io | Determines a gender from a first name | No | Yes | [Go!](https://genderize.io) |
 | Github - User Data | Pull public information for a user's github | No | Yes | [Go!](https://api.github.com/users/hackeryou) |
-| Gitter | Chat for GitHub | `OAuth` | Yes | [Go!](https://developer.gitter.im/docs/welcome) |
+| Gitter | Chat for GitHub | `OAuth` | Yes | [Go!](https://github.com/gitterHQ/docs) |
+| HackerRank | Compile source code and run against a set of provided test cases | `apiKey` | Yes | [Go!](https://www.hackerrank.com/api/docs) |
 | Hipster Ipsum | Generates Hipster Ipsum text | No | No | [Go!](http://hipsterjesus.com/) |
 | IPify | A simple IP Address API  | No | Yes | [Go!](https://www.ipify.org/) |
 | JSON 2 JSONP | Convert JSON to JSONP (on-the-fly) for easy cross-domain data requests using client-side JavaScript | No | Yes | [Go!](https://json2jsonp.com/) |
 | JSONPlaceholder | Fake data for testing and prototyping | No | No | [Go!](http://jsonplaceholder.typicode.com/) |
+| Judge0 API | Compile and run source code | No | Yes | [Go!](https://api.judge0.com/) |
 | Let's Validate | Uncovers the technologies used on websites and URL to thumbnail | No | Yes | [Go!](https://github.com/letsvalidate/api) |
 | LiveEdu | Live Coding Streaming | `OAuth` | Yes | [Go!](https://www.liveedu.tv/developer/applications/) |
 | Lorem Text | Generates Lorem Ipsum text | `X-Mashape-Key` | Yes | [Go!](https://market.mashape.com/montanaflynn/lorem-text-generator) |
@@ -203,13 +206,16 @@ Please note a passing build status indicates all listed APIs are available since
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| PM2.5.in | PM2.5 Data of China | `apiKey` | No | [Go!](http://www.pm25.in/api_doc) |
+| AirVisual | Air quality and weather data | `apiKey` | Yes | [Go!](https://airvisual.com/api) |
+| OpenAQ | Open air quality data | `apiKey` | Yes | [Go!](https://docs.openaq.org/) |
+| PM2.5.in | Air quality of China | `apiKey` | No | [Go!](http://www.pm25.in/api_doc) |
 
 ### Finance
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Barchart OnDemand | Stock, Futures, and Forex Market Data | `apiKey` | Yes | [Go!](https://www.barchartondemand.com/free) |
+| Consumer Financial Protection Bureau | Financial services consumer complains data | `apiKey` | Yes | [Go!](https://data.consumerfinance.gov/resource/jhzv-w97w.json) |
 
 ### Food & Drink
 
@@ -222,8 +228,11 @@ Please note a passing build status indicates all listed APIs are available since
 | LCBO | Alcohol | `apiKey` | Yes | [Go!](https://lcboapi.com/) |
 | PunkAPI | Brewdog Beer Recipes | No | Yes | [Go!](https://punkapi.com/) |
 | Recipe Puppy | Food | No | No | [Go!](http://www.recipepuppy.com/about/api/) |
+| TacoFancy | Community-driven taco database | No | No | [Go!](https://github.com/evz/tacofancy-api) |
+| TheCocktailDB | Cocktail Recipes | No | No | [Go!](http://www.thecocktaildb.com/) |
 | Yummly | Find food recipes | No | Yes | [Go!](https://developer.yummly.com/) |
 | Zomato | Discover restaurants | `apiKey` | Yes | [Go!](https://developers.zomato.com/api) |
+
 
 ### Fraud Prevention
 
@@ -249,11 +258,13 @@ Please note a passing build status indicates all listed APIs are available since
 | Eve Online | Third-Party Developer Documentation | `OAuth` required for some parts | Yes | [Go!](https://eveonline-third-party-documentation.readthedocs.io/en/latest/) |
 | Giant Bomb | Video Games | No | Yes | [Go!](https://www.giantbomb.com/api/documentation) |
 | Guild Wars 2 | Guild Wars 2 Game Information | `apiKey` | Yes | [Go!](https://wiki.guildwars2.com/wiki/API:Main) |
+| Jservice | Jeopardy Question Database | No | No | [Go!](http://jservice.io) |
 | Magic The Gathering | Magic The Gathering Game Information | No | No | [Go!](http://magicthegathering.io/) |
 | Marvel | Marvel Comics | `apiKey` | No | [Go!](http://developer.marvel.com) |
 | Minecraft | Minecraft server info & user info) | No | Yes | [Go!](https://mcapi.ca/) |
 | Open Trivia | Trivia Questions | No | Yes | [Go!](https://opentdb.com/api_config.php) |
 | Pokéapi | Pokémon Information | No | No | [Go!](http://pokeapi.co) |
+| Qriusity | Quiz/Trivia Questions | No | Yes | [Go!](https://qriusity.com/) |
 | Riot Games | League of Legends Game Information | `apiKey` | Yes | [Go!](https://developer.riotgames.com/) |
 | Steam | Steam Client Interaction | `OAuth` | Yes | [Go!](https://developer.valvesoftware.com/wiki/Steam_Web_API) |
 | SWAPI | Star Wars Information | No | Yes | [Go!](https://swapi.co) |
@@ -262,7 +273,8 @@ Please note a passing build status indicates all listed APIs are available since
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
-| Bing Maps | Create/customize digital maps based on Bing Maps data | `apiKey` | Yes | [Go!](https://www.microsoft.com/maps/choose-your-bing-maps-API.aspx) |
+| adresse.data.gouv.fr | Address database of France. geocoding and reverse. | No | Yes | [Go!](https://adresse.data.gouv.fr) |
+| Bing Maps | Create/customize digital maps based on Bing Maps data | `apiKey` | Yes | [Go!](https://www.microsoft.com/maps/) |
 | Geocode.xyz | Provides worldwide forward/reverse geocoding, batch geocoding and geoparsing | No | Yes | [Go!](https://geocode.xyz/) |
 | GeoNames | Place names and other geographical data | No | No | [Go!](http://www.geonames.org/export/web-services.html) |
 | GéoApi | French geographical data | No | Yes | [Go!](https://api.gouv.fr/api/geoapi.html) |
@@ -273,12 +285,15 @@ Please note a passing build status indicates all listed APIs are available since
 | Mapbox | Create/customize beautiful digital maps | `apiKey` | Yes | [Go!](https://www.mapbox.com/developers/) |
 | Mapzen Search | Open Source & Open Data Global Geocoding Service | No | Yes | [Go!](https://mapzen.com/products/search/) |
 | Mexico | Mexico RESTful zip codes API | No | Yes | [Go!](https://github.com/IcaliaLabs/sepomex) |
+| One Map 2.0, Singapore| Singapore Land Authority REST API services for Singapore addresses  | Yes | Yes | [Go!](https://docs.onemap.sg/) |
 | OpenCage | Forward and reverse geocoding using open data | No | Yes | [Go!](https://geocoder.opencagedata.com) |
 | OpenStreetMap | Navigation, geolocation and geographical data | `OAuth` | No | [Go!](http://wiki.openstreetmap.org/wiki/API) |
 | PostcodeData.nl | Provide geolocation data based on postcode for Dutch addresses | No | No | [Go!](http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&ref=domeinnaam.nl&type=json) |
 | Postcodes.io | Postcode lookup & Geolocation for the UK | No | Yes | [Go!](https://postcodes.io) |
+| REST Countries | Get information about countries via a RESTful API | No | Yes | [Go!](https://restcountries.eu) |
 | Utah AGRC | Utah Web API for geocoding Utah addresses | `apiKey` | Yes | [Go!](https://api.mapserv.utah.gov) |
 | ViaCep | Brazil RESTful zip codes API | No | Yes | [Go!](https://viacep.com.br) |
+
 
 ### Health
 
@@ -298,6 +313,7 @@ Please note a passing build status indicates all listed APIs are available since
 | API.AI | Natural Language Processing | `apikey` | Yes | [Go!](https://api.ai/) |
 | Clarifai | Computer Vision | `OAuth` | Yes | [Go!](https://developer.clarifai.com/) |
 | Cleverbot | Web chat bot | `apikey` | Yes | [Go!](https://www.cleverbot.com/api/) |
+| Keen IO | Data Analytics | `apikey` | Yes | [Go!](https://keen.io/) |
 | Unplugg | Forecasting API for timeseries data | `apikey` | Yes | [Go!](https://unplu.gg/test_api.html) |
 | Wit.ai | Natural Language Processing | `OAuth` | Yes | [Go!](https://wit.ai/) |
 
@@ -306,11 +322,14 @@ Please note a passing build status indicates all listed APIs are available since
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Newton | Symbolic and Arithmetic Math Calculator | No | Yes | [Go!](https://newton.now.sh/) |
+| Numbers API | Facts about numbers | No | No | [Go!](http://numbersapi.com) |
+
 
 ### Music
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
+| Bandsintown | Music Events | No | Yes | [Go!](https://app.swaggerhub.com/apis/Bandsintown/PublicAPI/3.0.0) |
 | Deezer | Music | `OAuth` | No | [Go!](http://developers.deezer.com/login?redirect=/api) |
 | Discogs | Music | `OAuth` | Yes | [Go!](https://www.discogs.com/developers/) |
 | Genius | Crowdsourced lyrics and music knowledge | `OAuth` | Yes | [Go!](https://docs.genius.com/) |
@@ -323,7 +342,7 @@ Please note a passing build status indicates all listed APIs are available since
 | Musixmatch | Music | `apiKey` | Yes | [Go!](https://developer.musixmatch.com/) |
 | Songsterr | Provides guitar, bass and drums tabs and chords  | No | Yes | [Go!](https://www.songsterr.com/a/wa/api/) |
 | Soundcloud | Music | No | Yes | [Go!](https://developers.soundcloud.com/) |
-| Spotify | Music | `OAuth` required for some parts | Yes | [Go!](https://developer.spotify.com/web-api/) |
+| Spotify | Music | `OAuth` | Yes | [Go!](https://developer.spotify.com/web-api/) |
 | Vagalume | Crowdsourced lyrics and music knowledge | `apiKey` | Yes | [Go!](https://api.vagalume.com.br/docs/) |
 
 ### News
@@ -332,6 +351,7 @@ Please note a passing build status indicates all listed APIs are available since
 |---|---|---|---|---|
 | New York Times | Provides news | `apikey` | Yes | [Go!](https://developer.nytimes.com/) |
 | News API | headlines currently published on a range of news sources and blogs | `apikey` | Yes | [Go!](https://newsapi.org/) |
+| The Guardian | Access all the content the Guardian creates, categorised by tags and section | `apikey` | Yes | [Go!](http://open-platform.theguardian.com/) |
 
 ### Open Source projects
 
@@ -368,6 +388,7 @@ Please note a passing build status indicates all listed APIs are available since
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
+| arcsecond.io | Multiple astronomy data sources | No | Yes | [Go!](https://api.arcsecond.io/) |
 | Fedger.io | Query machine intelligence data | No | Yes | [Go!](https://dev.fedger.io/docs/) |
 | inspirehep.net | High Energy Physics info. system | No | Yes | [Go!](https://inspirehep.net/info/hep/api?ln=en) |
 | Launch Library | Upcoming Space Launches | No | Yes | [Go!](https://launchlibrary.net/1.2/docs/api.html) |
@@ -396,7 +417,7 @@ Please note a passing build status indicates all listed APIs are available since
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
 | Discord | Make bots for Discord, integrate Discord onto an external platform | `OAuth` | Yes | [Go!](https://discordapp.com/developers/docs/intro) |
-| DonReach Social Count | Get the social share count of a URL from every major social network | No | Yes | [Go!](https://donreach.com/social-share-count) |
+| DonReach Social Count | Get the social share count of a URL from every major social network | No | Yes | [Go!](https://donreach.com/social-share-count/) |
 | Facebook | Facebook Login, Share on FB, Social Plugins, Analytics and more | `OAuth` | Yes | [Go!](https://developers.facebook.com/) |
 | Foursquare | Interact with Foursquare users and places (geolocation-based checkins, photos, tips, events, etc) | `OAuth` | Yes | [Go!](https://developer.foursquare.com/) |
 | Fuck Off as a Service | Asks someone to fuck off | No | Yes | [Go!](https://www.foaas.com) |
@@ -404,6 +425,7 @@ Please note a passing build status indicates all listed APIs are available since
 | HackerNews | Social news for CS and entrepreneurship | No | Yes | [Go!](https://github.com/HackerNews/API) |
 | Instagram | Instagram Login, Share on Instagram, Social Plugins and more | `OAuth` | Yes | [Go!](https://www.instagram.com/developer/) |
 | LinkedIn | The foundation of all digital integrations with LinkedIn | `OAuth` | Yes | [Go!](https://developer.linkedin.com/docs/rest-api) |
+| Meetup.com | Data about Meetups from Meetup.com | `apiKey` | Yes | [Go!](https://www.meetup.com/meetup_api/) |
 | Telegram MTProto | Read and write Telegram data | `OAuth` | Yes | [Go!](https://core.telegram.org/api#getting-started) |
 | Telegram bot | Simplified HTTP version of the MTProto API for bots | `OAuth` | Yes | [Go!](https://core.telegram.org/bots/api) |
 | Pinterest | The world's catalog of ideas | `OAuth` | Yes | [Go!](https://developers.pinterest.com/) |
@@ -419,6 +441,7 @@ Please note a passing build status indicates all listed APIs are available since
 
 | API | Description | Auth | HTTPS | Link |
 |---|---|---|---|---|
+| Cartola FC | The Cartola FC API serves to check the partial points of your team. | No | Yes | [Go!](https://github.com/wgenial/cartrolandofc) |
 | City Bikes | City Bikes around the world | No | No | [Go!](http://api.citybik.es/v2/) |
 | Ergast F1 | F1 data from the beginning of the world championships in 1950 | No | No | [Go!](http://ergast.com/mrd/) |
 | Fitbit | Fitbit Information | `OAuth` | Yes | [Go!](https://dev.fitbit.com/) |
@@ -431,6 +454,13 @@ Please note a passing build status indicates all listed APIs are available since
 | UFC Data | Ultimate Fighting Championship information for events and fighters | No | No | [Go!](http://ufc-data-api.ufc.com/) |
 | Wger | Workout manager data as exercises, muscles or equipments | `apiKey` | Yes | [Go!](https://wger.de/en/software/api) |
 
+### Tracking
+
+| API | Description | Auth | HTTPS | Link |
+|---|---|---|---|---|
+| Postmon | An API to query Brazilian ZIP codes and orders easily, quickly and free | No | No | [Go!](http://postmon.com.br) |
+| Sweden  | Provides  information about parcels in transport | `apikey` | No | [Go!](https://developer.postnord.com/docs2) |
+
 ### Transportation
 
 | API | Description | Auth | HTTPS | Link |
@@ -439,39 +469,42 @@ Please note a passing build status indicates all listed APIs are available since
 | Community Transit | Transitland API | No | Yes | [Go!](https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints) |
 | Goibibo | API for travel search  | `apiKey` | Yes | [Go!](https://developer.goibibo.com/docs) |
 | Indian Railways | Indian Railways Information | `token` | No | [Go!](http://api.erail.in/) |
+| Navitia | The open API for building cool stuff with transport data | `apiKey` | Yes | [Go!](https://api.navitia.io/) |
 | The Nomad List | A list of the best places to live/work remotely | No | Yes | [Go!](https://nomadlist.com/faq) |
-| Schiphol Airport | Schiphol | `OAuth` | Yes | [Go!](https://flight-info.3scale.net/) |
+| Schiphol Airport | Schiphol | `apiKey` | Yes | [Go!](https://developer.schiphol.nl/) |
 | TransitLand | Transit Aggregation | No | Yes | [Go!](https://transit.land/documentation/datastore/api-endpoints.html) |
 | Transport for Atlanta, US | Marta | No | No | [Go!](http://www.itsmarta.com/app-developer-resources.aspx) |
+| Transport for Auckland, New Zealand | Auckland Transport API  | No | Yes | [Go!](https://api.at.govt.nz/) |
 | Transport for Belgium | Belgian transport API | No | Yes | [Go!](https://hello.irail.be/api/) |
-| Transport for Boston, MA, USA | MBTA API | No | No | [Go!](http://realtime.mbta.com/Portal/Home/Documents) |
-| Transport for Budapest | Budapest public transport API | No | Yes | [Go!](https://apiary.io/) |
+| Transport for Berlin, Germany | third-party VBB API | No | Yes | [Go!](https://github.com/derhuerst/vbb-rest/blob/master/docs/index.md) |
+| Transport for Boston, US | MBTA API | No | No | [Go!](http://realtime.mbta.com/Portal/Home/Documents) |
+| Transport for Budapest, Hungary | Budapest public transport API | No | Yes | [Go!](https://apiary.io/) |
 | Transport for Chicago, US | CTA | No | No | [Go!](http://www.transitchicago.com/developers/) |
 | Transport for Czech Republic | Czech transport API | No | Yes | [Go!](https://www.chaps.cz/eng/products/idos-internet) |
+| Transport for Denver, US | RTD | No | No | [Go!](http://www.rtd-denver.com/gtfs-developer-guide.shtml) |
 | Transport for Finland | Finnish transport API | No | Yes | [Go!](https://digitransit.fi/en/developers/ ) |
 | Transport for Germany | Deutsche Bahn (DB) API | `apiKey` | No | [Go!](http://data.deutschebahn.com/dataset/api-fahrplan) |
-| Transport for Berlin | third-party VBB API | No | Yes | [Go!](https://github.com/derhuerst/vbb-rest/blob/master/docs/index.md) |
 | Transport for India | India Public Transport API | `apiKey` | Yes | [Go!](https://data.gov.in/sector/transport) |
 | Transport for London, England | TfL API | No | Yes | [Go!](https://api.tfl.gov.uk) |
+| Transport for Madrid, Spain | Madrid BUS transport API | `apiKey` | No | [Go!](http://opendata.emtmadrid.es/Servicios-web/BUS) |
 | Transport for Minneapolis, US | NexTrip API | `OAuth` | No | [Go!](http://svc.metrotransit.org/) |
-| Transport for New York City | MTA | `apiKey` | No | [Go!](http://datamine.mta.info/) |
+| Transport for New York City, US | MTA | `apiKey` | No | [Go!](http://datamine.mta.info/) |
 | Transport for Norway | Norwegian transport API | No | No | [Go!](http://reisapi.ruter.no/help) |
 | Transport for Ottawa, Canada | OC Transpo next bus arrival API | No | No | [Go!](http://www.octranspo.com/index.php/developers) |
 | Transport for Paris, France | RATP Open Data API | No | No | [Go!](http://data.ratp.fr/api/v1/console/datasets/1.0/search/) |
-| Transport for Philadelphia | SEPTA APIs | No | No | [Go!](http://www3.septa.org/hackathon/) |
+| Transport for Paris, France | Live schedules made simple | No | No | [Go!](http://restratpws.azurewebsites.net/swagger/) |
+| Transport for Philadelphia, US | SEPTA APIs | No | No | [Go!](http://www3.septa.org/hackathon/) |
 | Transport for Rio de Janeiro, Brazil | Prefeitura do Rio (City Hall) | No | No | [Go!](http://data.rio/group/transporte-e-mobilidade) |
+| Transport for São Paulo, Brazil | SPTrans | `OAuth` | No | [Go!](http://www.sptrans.com.br/desenvolvedores/APIOlhoVivo/Documentacao.aspx) |
 | Transport for Sweden | Public Transport consumer | `OAuth` | Yes | [Go!](https://www.trafiklab.se/api) |
 | Transport for Switzerland | Swiss public transport API | No | Yes | [Go!](https://transport.opendata.ch/) |
 | Transport for Switzerland | Official Swiss Public Transport Open Data | `apiKey` | Yes | [Go!](https://opentransportdata.swiss/en/) |
-| Transport for São Paulo, Brazil | SPTrans | `OAuth` | No | [Go!](http://www.sptrans.com.br/desenvolvedores/APIOlhoVivo/Documentacao.aspx) |
 | Transport for The Netherlands | NS | No | No | [Go!](http://www.ns.nl/reisinformatie/ns-api) |
 | Transport for Tokyo, Japan | Tokyo Metro | `apiKey` | Yes | [Go!](https://developer.tokyometroapp.jp/info)  |
 | Transport for Toronto, Canada | TTC | No | Yes | [Go!](https://myttc.ca/developers) |
 | Transport for Vancouver, Canada | TransLink | `OAuth` | Yes | [Go!](https://developer.translink.ca/) |
 | Transport for Victoria, AU | PTV API | `apiKey` | Yes | [Go!](https://www.ptv.vic.gov.au/about-ptv/ptv-data-and-reports/digital-products/ptv-timetable-api/) |
 | Transport for Washington, US | Washington Metro transport API | `OAuth` | Yes | [Go!](https://developer.wmata.com/) |
-| Transport for Madrid, Spain | Madrid BUS transport API | `apiKey` | No | [Go!](http://opendata.emtmadrid.es/Servicios-web/BUS) |
-| Transport for Auckland, New Zealand | Auckland Transport API  | No | Yes | [Go!](https://api.at.govt.nz/) |
 | Uber | Request Uber rides, reach riders, transport things, and reward drivers | `OAuth` | Yes | [Go!](https://developer.uber.com/) |
 | WhereIsMyTransport | Platform for public transport data in emerging cities  | `OAuth` | Yes | [Go!](https://developer.whereismytransport.com/) |
 
@@ -497,7 +530,6 @@ Please note a passing build status indicates all listed APIs are available since
 | Dailymotion | Dailymotion Developer API | `OAuth` | Yes | [Go!](https://developer.dailymotion.com/) |
 | MovieDB | Movie Data | `apiKey` | Yes | [Go!](https://www.themoviedb.org/documentation/api) |
 | Netflix Roulette | Netflix database | No | No | [Go!](http://netflixroulette.net/api/) |
-| OMDB | Open movie database | No | Yes | [Go!](https://omdbapi.com/) |
 | Ron Swanson Quotes | Television | No | Yes | [Go!](https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api) |
 | TVMaze | TV Show Data | No | No | [Go!](http://www.tvmaze.com/api) |
 | Vimeo | Vimeo Developer API | `OAuth` | Yes | [Go!](https://developer.vimeo.com/) |
@@ -511,5 +543,5 @@ Please note a passing build status indicates all listed APIs are available since
 | MetaWeather | Weather | No | Yes | [Go!](https://www.metaweather.com/api/) |
 | OpenWeatherMap | Weather | `apiKey` | No | [Go!](http://openweathermap.org/api) |
 | Weatherbit | Weather | `apiKey` | Yes | [Go!](https://www.weatherbit.io/api) |
-| Wunderground | Weather | No | Yes | [Go!](https://www.wunderground.com/weather/api/) |
+| Wunderground | Weather | `apiKey` | Yes | [Go!](https://www.wunderground.com/weather/api/) |
 | Yahoo! Weather | Weather | No | Yes | [Go!](https://developer.yahoo.com/weather/) |
